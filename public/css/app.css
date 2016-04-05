@@ -1,0 +1,19 @@
+/* Alerts */
+	.alert { margin-bottom: 30px; padding: 20px 55px 20px 90px; position: relative; -webkit-border-radius: 5px; border-radius: 5px; }
+	.alert2 { 
+		position: fixed;
+	   right: 25px;
+	   top: 15px;
+	   
+	   padding: 15px 15px 15px 30px;
+	   -webkit-border-top-right-radius: 5px;
+	   -moz-border-radius: 5px;
+	   border-radius: 5px;
+	   background-repeat: no-repeat;
+	   background-position: 7px center;
+	   opacity: 0.95;
+	   filter: alpha(opacity=95);
+	   vertical-align: middle;
+	   
+    
+	}
