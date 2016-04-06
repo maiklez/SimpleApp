@@ -1,5 +1,6 @@
 <?php
 
+
 return [
 
     /*
@@ -150,7 +151,7 @@ return [
 		
     		Collective\Html\HtmlServiceProvider::class,
     		Barryvdh\Debugbar\ServiceProvider::class,
-    		
+    		    		
     		Maiklez\MaikBlog\MaikBlogServiceProvider::class,
     		
         /*
