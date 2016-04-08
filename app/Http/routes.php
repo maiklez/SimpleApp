@@ -26,12 +26,13 @@
 
 
 Route::group(['middleware' => 'web'], function () {
-	Route::get('/', '\Maiklez\MaikBlog\Http\Controllers\MaikBlogController@blogView');
+	//Route::get('/', '\Maiklez\MaikBlog\Http\Controllers\MaikBlogController@blogView');
+	Route::get('/', 'HomeController@welcome');
 	
 	// Authentication Routes...
 	Route::auth();
 
-    Route::get('/home', 'HomeController@index');
+    Route::get('/home', 'HomeController@index')->middleware(['auth']);
     
     
     Route::group([ 'namespace' => 'Admin'], function()

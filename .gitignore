@@ -13,3 +13,8 @@ storage/
 .env
 .env.example
 /.gitignore
+
+#eclipse
+.buildpath
+.project
+/.settings

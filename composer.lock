@@ -631,12 +631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maiklez/MaikBlog.git",
-                "reference": "5bab31d2dd3432f21fa49921bae911d26b3ef57f"
+                "reference": "9b0fa6fa0d6c6167c2be6ebe67f243bae4ef11df"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maiklez/MaikBlog/zipball/5bab31d2dd3432f21fa49921bae911d26b3ef57f",
-                "reference": "5bab31d2dd3432f21fa49921bae911d26b3ef57f",
+                "url": "https://api.github.com/repos/maiklez/MaikBlog/zipball/9b0fa6fa0d6c6167c2be6ebe67f243bae4ef11df",
+                "reference": "9b0fa6fa0d6c6167c2be6ebe67f243bae4ef11df",
                 "shasum": ""
             },
             "require": {
@@ -665,7 +665,7 @@
                 "blog",
                 "laravel"
             ],
-            "time": "2016-04-06 10:30:10"
+            "time": "2016-04-06 11:10:42"
         },
         {
             "name": "maximebf/debugbar",

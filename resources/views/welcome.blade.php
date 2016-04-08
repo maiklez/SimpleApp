@@ -1,17 +1,37 @@
 @extends('layouts.app')
 
-@section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
 
-                <div class="panel-body">
-                    Your Application's Landing Page.
-                </div>
+@section('title')
+MaikBlog
+@stop
+
+@section('content')
+	
+	<!-- Current Posts -->
+    @if (count($posts) > 0)
+        <div class="container">
+    	<div class="row">
+        <div class="panel panel-default">
+            <div class="panel-heading">
+                The Posts
+            </div>
+
+            <div class="panel-body">
+                 @foreach ($posts as $post)
+					@if($posts->first() != $post)
+						<hr>
+					@endif
+					
+					<div><h2>{{ $post->title }}</h2></div>
+					<div>Published by {{ $post->author->name }}</div>
+					<div>{!!  $post->body !!}</div>
+					
+					            
+                 @endforeach
             </div>
         </div>
-    </div>
-</div>
-@endsection
+        </div>
+        </div>
+    @endif
+
+@stop

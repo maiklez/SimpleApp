@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests;
 use Illuminate\Http\Request;
+use Maiklez\MaikBlog\Models\Post;
 
 class HomeController extends Controller
 {
@@ -14,7 +15,7 @@ class HomeController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('auth');
+        //$this->middleware('auth');
     }
 
     /**
@@ -25,5 +26,20 @@ class HomeController extends Controller
     public function index()
     {
         return view('home');
+    }
+    
+    /**
+     * Show the application dashboard.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function welcome()
+    {
+    	$posts = Post::all();
+    
+    
+    	return view('welcome', [
+    			'posts' => $posts,
+    	]);
     }
 }
