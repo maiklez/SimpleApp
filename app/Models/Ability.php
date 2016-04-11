@@ -19,6 +19,7 @@ class Ability extends Model implements ActionModel
     protected $fillable = ['name', 'description'];
     
     public static $post_blog = "post_blog";
+    public static $master = "admin_master";
     /**
      * Get all of the tasks for the user.
      */
@@ -30,7 +31,7 @@ class Ability extends Model implements ActionModel
     public static function superUser(){
     	//\Debugbar::info(Ability::where('name', 'admin_master')->first()->id);
     	
-    	return Ability::where('name', 'admin_master')->first()->id;
+    	return Ability::where('name', Ability::$master)->first()->id;
     }
     
     public static function  storeRules(){
