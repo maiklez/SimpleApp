@@ -25,8 +25,8 @@
 		background-color: #eddbc3;
 		padding-top: 25px;
 	    padding-bottom: 25px;
-	    font-family: monospace;
-    	font-size: 15px;
+	    font-family: Ubuntu Mono;
+    	font-size: 19px;
 	}	
 	
 	.text-muted, .text-muted a{
@@ -42,8 +42,8 @@
 	}
 	.navbar-default .navbar-nav>li>a {
 	    color: #000000;
-	    font-family: monospace;
-	    font-size: 15px;
+	    font-family: Ubuntu Mono;
+	    font-size: 19px;
 	}
 	.logo {
 	    background: transparent url("../logo.png") no-repeat top left;
@@ -75,18 +75,21 @@
     	border-top-left-radius: 0px;
     	border-top-right-radius: 0px;
     	color: white;
-    	font-family: monospace;
-    	font-size: 15px;
+    	font-family: Ubuntu Mono;
+    	font-size: 17px;
+    	font-weight: bold;
     }
     
     .panel-post .panel-body h2{
     	margin-top: 5px;
-    	font-family: monospace;
+    	font-family: Bangers;
     }
     .panel-post .post-published{
         margin-bottom: 25px;
         color: #7A0000;
+        font-weight: bold;
     }
     .panel-post .post-body{
+    	font-family: 'Roboto', sans-serif;
     }
     
