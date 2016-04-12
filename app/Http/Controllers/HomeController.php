@@ -29,17 +29,32 @@ class HomeController extends Controller
     }
     
     /**
-     * Show the application dashboard.
+     * Show the posts.
      *
      * @return \Illuminate\Http\Response
      */
     public function welcome()
     {
-    	$posts = Post::all();
+    	$posts = Post::paginate(1);
     
     
     	return view('welcome', [
     			'posts' => $posts,
+    	]);
+    }
+    
+    /**
+     * Show one post
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function the_post($slug)
+    {
+    	$post = Post::where('slug', 'like',$slug)->first();
+    
+    
+    	return view('one_post', [
+    			'post' => $post,
     	]);
     }
 }

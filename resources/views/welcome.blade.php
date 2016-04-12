@@ -22,13 +22,19 @@ MaikBlog
 						<hr>
 					@endif
 					
-					<div><h2>{{ $post->title }}</h2></div>
-					<div class="post-published">Published by {{ $post->author->name }} on {{ $post->created_at }}</div>
+					<div><a class="" href={!! route('the_post', $post->slug) !!}>
+                                     <h2>{{ $post->title }}</h2></a></div>
+					<div class="post-published">Published by {{ $post->author->name }} on {{ $post->created_at->format('M d,Y') }}</div>
 					<div class="post-body">{!!  $post->body !!}</div>
 					
 					            
                  @endforeach
+            
+            {!! $posts->links() !!}
+            
+            <!-- <div class="">{!! $posts->total()!!} Total posts</div> -->
             </div>
+            
         </div>
         </div>
         </div>
