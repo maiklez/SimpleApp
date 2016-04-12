@@ -11,7 +11,7 @@ MaikBlog
     @if (count($posts) > 0)
         <div class="container">
     	<div class="row">
-        <div class="panel panel-default">
+        <div class="panel panel-post">
             <div class="panel-heading">
                 The Posts
             </div>
@@ -23,8 +23,8 @@ MaikBlog
 					@endif
 					
 					<div><h2>{{ $post->title }}</h2></div>
-					<div>Published by {{ $post->author->name }}</div>
-					<div>{!!  $post->body !!}</div>
+					<div class="post-published">Published by {{ $post->author->name }} on {{ $post->created_at }}</div>
+					<div class="post-body">{!!  $post->body !!}</div>
 					
 					            
                  @endforeach

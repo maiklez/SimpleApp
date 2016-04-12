@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>@yield('title')</title>
-
+	
+	{!! Html::favicon('favicon.ico') !!}
+	
     <!-- Fonts -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
@@ -52,6 +54,19 @@
     @include('partials.navbar')
 
     @yield('content')
+	
+	
+	
+
+<div id="footer">
+    <div class="container">
+        <p class="text-muted credit"><span style="text-align: left; float: left">&copy; 2016 <a href="">MAik.rocks</a></span> 
+        <span class="hidden-phone" style="text-align: right; float: right">Powered by: <a
+                        href="http://maik.rocks/" alt="MAik.rocks">MAik</a></span></p>
+		
+    </div>
+    
+</div>
 
     
     {{-- <script src="{{ elixir('js/app.js') }}"></script> --}}
