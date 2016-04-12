@@ -93,3 +93,16 @@
     	font-family: 'Roboto', sans-serif;
     }
     
+    pre.prettyprint {
+    	font-family: Ubuntu Mono;
+    	font-size: 16px;
+	}
+
+    .maik-code {
+	    font-family: Ubuntu Mono;
+	    border: 1px solid #A2A2A2;
+	    background-color: #F1F1F1;
+	    margin: 10px;
+	    color: #0150c7;
+	    overflow: auto;
+	}
