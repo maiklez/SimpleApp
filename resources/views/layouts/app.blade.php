@@ -65,10 +65,13 @@
 	
 
 <div id="footer">
-    <div class="container">
-        <p class="text-muted credit"><span style="text-align: left; float: left">&copy; 2016 <a href="">MAik.rocks</a></span> 
-        <span class="hidden-phone" style="text-align: right; float: right">Powered by: <a
-                        href="http://maik.rocks/" alt="MAik.rocks">MAik</a></span></p>
+    <div class="container" style =" font-size: 15px;">
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a> 
+        <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">MAik.rocks</span> 
+        is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+        <span class="hidden-phone" style="margin-top: 4px; float: right">Powered by: <a xmlns:cc="http://creativecommons.org/ns#" href="maik.rocks" property="cc:attributionName" rel="cc:attributionURL">MAik</a></span>
 		
     </div>
     
