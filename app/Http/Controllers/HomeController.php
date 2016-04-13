@@ -35,7 +35,7 @@ class HomeController extends Controller
      */
     public function welcome()
     {
-    	$posts = Post::paginate(1);
+    	$posts = Post::paginate(5);
     
     
     	return view('welcome', [

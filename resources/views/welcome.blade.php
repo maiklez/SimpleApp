@@ -25,8 +25,9 @@ MaikBlog
 					<div><a class="" href={!! route('the_post', $post->slug) !!}>
                                      <h2>{{ $post->title }}</h2></a></div>
 					<div class="post-published">Published by {{ $post->author->name }} on {{ $post->created_at->format('M d,Y') }}</div>
-					<div class="post-body">{!!  $post->body !!}</div>
-					
+					<div class="post-body">{!!  substr($post->body,0, strpos($post->body, "</p>"))  !!}</div>
+					<div><a class="" href={!! route('the_post', $post->slug) !!}>
+                                     Mostrar más...</a></div>
 					            
                  @endforeach
             

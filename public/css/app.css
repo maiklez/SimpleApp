@@ -97,7 +97,20 @@
     	font-family: Ubuntu Mono;
     	font-size: 16px;
 	}
-
+	.terminal::before { 
+    content: "maik@rocks:~$ ";
+	}
+	.terminal{
+		font-family: Ubuntu Mono;
+	    background-color: #000000;
+	    color: #15C701;
+		padding-top:3px;
+		padding-bottom: 3px;
+		padding-left: 5px;
+		padding-right: 10px;
+	}
+	
+    
     .maik-code {
 	    font-family: Ubuntu Mono;
 	    border: 1px solid #A2A2A2;

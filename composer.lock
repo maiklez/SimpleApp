@@ -631,12 +631,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/maiklez/MaikBlog.git",
-                "reference": "9b0fa6fa0d6c6167c2be6ebe67f243bae4ef11df"
+                "reference": "38f0985d54ba6326754752c4029bb33f4fe2e23b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/maiklez/MaikBlog/zipball/9b0fa6fa0d6c6167c2be6ebe67f243bae4ef11df",
-                "reference": "9b0fa6fa0d6c6167c2be6ebe67f243bae4ef11df",
+                "url": "https://api.github.com/repos/maiklez/MaikBlog/zipball/38f0985d54ba6326754752c4029bb33f4fe2e23b",
+                "reference": "38f0985d54ba6326754752c4029bb33f4fe2e23b",
                 "shasum": ""
             },
             "require": {
@@ -665,7 +665,7 @@
                 "blog",
                 "laravel"
             ],
-            "time": "2016-04-06 11:10:42"
+            "time": "2016-04-13 11:13:35"
         },
         {
             "name": "maximebf/debugbar",
@@ -730,16 +730,16 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.18.2",
+            "version": "1.19.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09"
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/064b38c16790249488e7a8b987acf1c9d7383c09",
-                "reference": "064b38c16790249488e7a8b987acf1c9d7383c09",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/5f56ed5212dc509c8dc8caeba2715732abb32dbf",
+                "reference": "5f56ed5212dc509c8dc8caeba2715732abb32dbf",
                 "shasum": ""
             },
             "require": {
@@ -804,7 +804,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-04-02 13:12:58"
+            "time": "2016-04-12 18:29:35"
         },
         {
             "name": "mtdowling/cron-expression",
