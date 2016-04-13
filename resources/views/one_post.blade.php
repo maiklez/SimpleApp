@@ -30,8 +30,8 @@ MaikBlog -
 						<h2>Deja tu comentario!</h2>
 					</div>           
                  	
-                 	@if(Auth::guest())
-						<p>Login to Comment</p>
+                 	@if(Auth::guest())  
+						<p><a href="{{ url('/login')}}">Login</a> para comentar</p>
 					@else
 						<div class="panel-body">
 							<form method="post" action="{!! route('add_comment', $post->id) !!}">
