@@ -2,7 +2,7 @@
 
 
 @section('title')
-MaikBlog - 
+- MaikBlog @if(isset($post))- {!!$post->title!!}@endif
 @stop
 
 @section('content')

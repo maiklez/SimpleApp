@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>@yield('title')</title>
-	
+    <title>MAik.rocks @yield('title')</title>
+	<meta name="description" content="MAik.rocks, un blog de técnologia, programación, arduino y mucho más">
+	<meta name="keywords" content="programación, php, java, c, arduino, raspberry pi, raspi, tecnología, maik">
+		
 	{!! Html::favicon('favicon.ico') !!}
 	
     <!-- Fonts -->

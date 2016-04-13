@@ -2,7 +2,7 @@
 
 
 @section('title')
-MaikBlog
+- MaikBlog (Técnología, programación, arduino y más)
 @stop
 
 @section('content')
