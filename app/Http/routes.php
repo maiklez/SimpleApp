@@ -36,6 +36,7 @@ Route::group(['middleware' => 'web'], function () {
 
     Route::get('/home', 'HomeController@index')->middleware(['auth']);
     
+    Route::post('/store2', 'HomeController@store')->name('post.store2')->middleware(['auth']);
     
     Route::group([ 'namespace' => 'Admin'], function()
     {

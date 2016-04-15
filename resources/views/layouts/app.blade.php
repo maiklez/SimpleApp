@@ -7,7 +7,7 @@
 
     <title>MAik.rocks @yield('title')</title>
 	<meta name="description" content="MAik.rocks, un blog de técnologia, programación, arduino y mucho más">
-	<meta name="keywords" content="programación, php, java, c, arduino, raspberry pi, raspi, tecnología, maik">
+	<meta name="keywords" content="@yield('keywords') ">
 		
 	{!! Html::favicon('favicon.ico') !!}
 	

@@ -2,7 +2,11 @@
 
 
 @section('title')
-- MaikBlog @if(isset($post))- {!!$post->title!!}@endif
+- MaikBlog @if(isset($post))- {!!$post->title!!}; {!!$post->getTagsCommaSeparated()!!}@endif
+@stop
+
+@section('keywords')
+{!!$post->getTagsCommaSeparated()!!}
 @stop
 
 @section('content')
@@ -21,9 +25,12 @@
                  
 					
 					<div><h2>{{ $post->title }}</h2></div>
+					<div class="post-tags">Categoria: {{ $post->getCategoriesCommaSeparated() }}</div>
+					
 					<div class="post-published">Published by {{ $post->author->name }} on {{ $post->created_at->format('M d,Y') }}</div>
 					<div class="post-body">{!!  $post->body !!}</div>
 					
+					<div class="post-tags">Tags: {{ $post->getTagsCommaSeparated() }}</div>
 					 
 					 <!-- The Comments -->
 					 <div style="margin-top:40px;">

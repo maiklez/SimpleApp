@@ -84,6 +84,11 @@
     	margin-top: 5px;
     	font-family: Bangers;
     }
+    .panel-post .post-tags{
+        
+        color: #7A0000;
+        font-weight: bold;
+    }
     .panel-post .post-published{
         margin-bottom: 25px;
         color: #7A0000;
