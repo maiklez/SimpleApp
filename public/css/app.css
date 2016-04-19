@@ -105,7 +105,7 @@
 	.terminal::before { 
     content: "maik@rocks:~$ ";
 	}
-	.terminal{
+	.terminal, .terminal2{
 		font-family: Ubuntu Mono;
 	    background-color: #000000;
 	    color: #15C701;
