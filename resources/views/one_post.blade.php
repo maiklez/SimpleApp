@@ -17,7 +17,7 @@
     	<div class="row">
         <div class="panel panel-post">
             
-            @if(!Auth::guest() && ($post->author_id == Auth::user()->id || Auth::user()->is_admin()))
+            @if(!Auth::guest() && ($post->author_id == Auth::user()->id || Auth::user()->is_admin))
 				<button class="btn" style="float: right"><a href="{{ url('post/'.$post->id .'/edit')}}">Edit Post</a></button>
 			@endif
 
