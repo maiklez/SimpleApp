@@ -40,10 +40,16 @@
                  <ul class="nav navbar-nav">
                     <li><a href="{{ route('blog') }}">Blog</a></li>
                 </ul>
+                
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/albumes') }}">Albumes</a></li>
+                </ul>
+                
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ url('/evento') }}">Eventos</a></li>
+                </ul>
 				@endcan
-				
-				
-				
+
                 <!-- Right Side Of Navbar -->
                 <ul class="nav navbar-nav navbar-right">
                     <!-- Authentication Links -->

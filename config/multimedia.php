@@ -1,6 +1,6 @@
 <?php
 	return [
 			"message" => "Welcome to your new package",
-			'title' => 'My Blog',
+			'title' => 'Multimedia',
 			'posts_per_page' => 5
 	];

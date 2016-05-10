@@ -154,6 +154,8 @@ return [
     		    		
     		Maiklez\MaikBlog\MaikBlogServiceProvider::class,
     		
+    		Maiklez\Multimedia\MultimediaServiceProvider::class,
+    		
         /*
          * Application Service Providers...
          */

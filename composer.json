@@ -1,6 +1,6 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
+    "name": "maiklez/simpleapp",
+    "description": "Simple app that extends The Laravel Framework.",
     "keywords": ["framework", "laravel"],
     "license": "MIT",
     "type": "project",
@@ -9,7 +9,8 @@
         "laravel/framework": "5.2.*",
         "barryvdh/laravel-debugbar": ">=2.0",
 		"laravelcollective/html": "5.2.*",
-		"maiklez/maikblog": "dev-master"
+		"maiklez/maikblog": "dev-master",
+		"maiklez/multimedia": "dev-master"
         
     },
     "require-dev": {

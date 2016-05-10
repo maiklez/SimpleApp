@@ -59,6 +59,7 @@ class HomeController extends Controller
     
     	return view('one_post', [
     			'post' => $post,
+    			'comments' => $post->comments,
     	]);
     }
     
