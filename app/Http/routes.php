@@ -29,6 +29,8 @@ Route::group(['middleware' => 'web'], function () {
 	//Route::get('/', '\Maiklez\MaikBlog\Http\Controllers\MaikBlogController@blogView');
 	Route::get('/', 'HomeController@welcome');
 	
+	Route::get('/politica-de-privacidad', 'HomeController@privacidad');
+	
 	Route::get('blog/{slug}/', 'HomeController@the_post')->name('the_post');
 	
 	// Authentication Routes...

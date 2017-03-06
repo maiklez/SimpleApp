@@ -33,6 +33,21 @@ class HomeController extends Controller
     }
     
     /**
+     * politica de privacidad
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function privacidad()
+    {
+    	
+    	$name = 'maik.rocks';
+    
+    	return view('tyc', [
+    			'name' => $name,
+    	]);
+    }
+    
+    /**
      * Show the posts.
      *
      * @return \Illuminate\Http\Response
