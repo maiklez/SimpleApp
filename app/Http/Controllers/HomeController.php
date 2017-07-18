@@ -63,6 +63,21 @@ class HomeController extends Controller
     }
     
     /**
+     * Show the posts.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function portfolio()
+    {
+    
+    
+    	return view('portfolio', [
+
+    			
+    	]);
+    }
+    
+    /**
      * Show one post
      *
      * @return \Illuminate\Http\Response

@@ -22,6 +22,10 @@
                     <li><a href="{{ url('/home') }}">Home</a></li>
                 </ul>
                 -->
+                <ul class="nav navbar-nav">
+                    <li><a href="{{ route('portfolio') }}">Portfolio</a></li>
+                </ul>
+                
                 @can('admin', Auth::user())
     			<!-- The Current User Can Update The Post -->
 
