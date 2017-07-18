@@ -73,7 +73,7 @@
         <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">MAik.rocks</span> 
         is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-        <span class="hidden-phone" style="margin-top: 4px; float: right">Powered by: <a xmlns:cc="http://creativecommons.org/ns#" href="maik.rocks" property="cc:attributionName" rel="cc:attributionURL">MAik</a></span>
+        <span class="hidden-phone" style="margin-top: 4px; float: right">Powered by: <a xmlns:cc="http://creativecommons.org/ns#" href="http://maik.rocks" property="cc:attributionName" rel="cc:attributionURL">MAik</a></span>
 		
     </div>
     
